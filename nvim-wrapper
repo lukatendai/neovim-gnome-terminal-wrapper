@@ -33,6 +33,7 @@ TERM_CMD = [
     'gnome-terminal',
     '--app-id', APP_ID,
     '--class', CLASS,
+    '--profile', 'nvim',
     '--name', NAME,
     '--hide-menubar',
     '-x',
